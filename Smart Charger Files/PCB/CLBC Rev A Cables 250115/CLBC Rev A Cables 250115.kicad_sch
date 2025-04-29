@@ -1,0 +1,171 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "2f8a9c40-103e-4bf5-b088-48c82821a7e7")
+	(paper "A")
+	(title_block
+		(title "Closed Loop Battery Charger Cabling")
+		(date "2025-01-15")
+		(rev "A")
+		(company "Cosmiic")
+	)
+	(lib_symbols)
+	(sheet
+		(at 90.17 96.52)
+		(size 33.02 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "624eda27-f593-4017-b8e0-fe4f2732f9f7")
+		(property "Sheetname" "Display Cable"
+			(at 90.17 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Display Cable.kicad_sch"
+			(at 90.17 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLBC Rev A Cables 250115"
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 64.77)
+		(size 33.02 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "887c2bdc-7d85-4320-af43-24b3686b2d88")
+		(property "Sheetname" "Coil Connector Chassis Passive Coil"
+			(at 148.59 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Coil Connector Chassis Passive Coil.kicad_sch"
+			(at 148.59 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLBC Rev A Cables 250115"
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 148.59 96.52)
+		(size 33.02 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ec4f347b-0248-4069-b714-34f321d62926")
+		(property "Sheetname" "Enclosure Pushbutton Cable"
+			(at 148.59 95.8084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Enclosure Pushbutton Cable.kicad_sch"
+			(at 148.59 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLBC Rev A Cables 250115"
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 90.17 64.77)
+		(size 33.02 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f75e1b6a-cebc-42fc-a76b-aadc046db299")
+		(property "Sheetname" "Coil Connector Chassis Smart Coil"
+			(at 90.17 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Coil Connector Chassis Smart Coil.kicad_sch"
+			(at 90.17 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CLBC Rev A Cables 250115"
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

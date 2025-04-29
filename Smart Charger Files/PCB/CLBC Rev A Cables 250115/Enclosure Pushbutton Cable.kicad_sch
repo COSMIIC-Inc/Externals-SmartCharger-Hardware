@@ -1,0 +1,1058 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "cae7614a-b466-4580-875b-9ac7bbd84d6b")
+	(paper "A")
+	(title_block
+		(title "Smart Charger Enclosure Pushbuttons")
+		(date "2025-01-15")
+		(rev "A")
+		(company "Cosmiic")
+	)
+	(lib_symbols
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "SW_MEC_5E_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW1"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_MEC_5E"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "MEC 5E single pole normally-open tactile switch"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch normally-open pushbutton push-button"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SW*MEC*5G*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_MEC_5E_1_0_1"
+				(circle
+					(center -1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.286 3.81) (xy 2.286 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.81) (xy 0 5.588)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 2.54) (xy -2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 2.54 2.54) (xy 2.286 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.778 2.54)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 128.27 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e547c42-8c20-4548-bce2-395fa725cf12")
+	)
+	(junction
+		(at 118.11 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8535282f-f42d-4863-999b-3442ad38bd31")
+	)
+	(junction
+		(at 152.4 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "987beac4-4209-4b3a-ba59-088030a475a5")
+	)
+	(junction
+		(at 162.56 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad0f519e-d918-4fe9-9aa6-7c6612367ab5")
+	)
+	(junction
+		(at 128.27 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f2924824-7887-4407-a4d3-444277d5fc08")
+	)
+	(no_connect
+		(at 125.73 121.92)
+		(uuid "782438ad-9e5e-4343-a0e4-8d3f5566ab13")
+	)
+	(no_connect
+		(at 123.19 121.92)
+		(uuid "842560f0-c83b-485a-8561-24773ba3e5d1")
+	)
+	(no_connect
+		(at 128.27 121.92)
+		(uuid "a02a0712-c5a5-4a6a-85ec-2a48896f230e")
+	)
+	(wire
+		(pts
+			(xy 128.27 115.57) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e19f4d-944e-43ff-ac41-627757c6baed")
+	)
+	(wire
+		(pts
+			(xy 128.27 95.25) (xy 128.27 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6279d31c-c00f-4def-9c58-623a65eb933a")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 128.27 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67617abb-27fa-4b68-bb08-c9e77880f1b3")
+	)
+	(wire
+		(pts
+			(xy 152.4 95.25) (xy 152.4 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7732b3e6-0c7d-4ab2-9697-4703efca51d2")
+	)
+	(wire
+		(pts
+			(xy 162.56 97.79) (xy 162.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "89623847-7c2d-4259-a8ac-e42b5b2caad7")
+	)
+	(wire
+		(pts
+			(xy 152.4 110.49) (xy 120.65 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99de4988-8f2d-47fe-a3d2-42a73440013c")
+	)
+	(wire
+		(pts
+			(xy 128.27 102.87) (xy 162.56 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1c20265-ec32-4ff4-acbb-ab312f830b7d")
+	)
+	(wire
+		(pts
+			(xy 162.56 95.25) (xy 162.56 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc12d789-26e8-4e24-b40a-9d4c21c1d7c4")
+	)
+	(wire
+		(pts
+			(xy 120.65 110.49) (xy 120.65 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be4b133d-5a8d-4b66-9a66-051ed10ab292")
+	)
+	(wire
+		(pts
+			(xy 152.4 97.79) (xy 152.4 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c25c392e-590d-4694-985b-2c8eae1d0413")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 130.81 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c270777d-488b-4dff-b945-33d8360a21a2")
+	)
+	(wire
+		(pts
+			(xy 128.27 97.79) (xy 128.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "daeb2e88-9a8b-4763-9c0e-633182a1ca36")
+	)
+	(wire
+		(pts
+			(xy 118.11 97.79) (xy 118.11 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e45e4986-3c7f-445b-b1fc-a7178def448a")
+	)
+	(wire
+		(pts
+			(xy 118.11 95.25) (xy 118.11 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcabdec4-acff-4bc7-ba5f-2bc20ca41791")
+	)
+	(text "24 AWG Stranded Wire\nSoldered to Switch Terminals"
+		(exclude_from_sim no)
+		(at 167.894 107.188 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "114a0175-668d-483c-83cc-74202bf1cf78")
+	)
+	(text "BLU"
+		(exclude_from_sim no)
+		(at 151.13 100.838 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1154eea6-85e2-44f9-a28d-b1431dcc4fdf")
+	)
+	(text "NKK Switches JF15SP4G"
+		(exclude_from_sim no)
+		(at 162.814 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "331d29a0-6bc2-4c3e-a7df-e2b55ca14586")
+	)
+	(text "GRN"
+		(exclude_from_sim no)
+		(at 127.254 100.838 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "35a367f8-8a2b-4d8c-9125-ab1ce2372b24")
+	)
+	(text "Molex 901560146 Housing\nMolex 0901192110 Contact"
+		(exclude_from_sim no)
+		(at 125.476 138.938 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e595baa-abd2-4c39-83b1-7a0e378a98f9")
+	)
+	(text "REAR (TOP) VIEW"
+		(exclude_from_sim no)
+		(at 124.46 134.62 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "61a8e3ab-fc0c-4510-9783-dc76b5f50ca0")
+	)
+	(text "BOTTOM VIEW"
+		(exclude_from_sim no)
+		(at 140.462 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94a4e948-219b-4a82-bf4a-5c4f06969ba4")
+	)
+	(text "RIGHT - BLU"
+		(exclude_from_sim no)
+		(at 157.48 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94fc48a6-ad75-4270-ba7b-6ea47b5896e6")
+	)
+	(text "GRN"
+		(exclude_from_sim no)
+		(at 161.544 100.838 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9cab5656-ab08-4d7d-8ff9-132c312cefc1")
+	)
+	(text "GRN"
+		(exclude_from_sim no)
+		(at 129.794 119.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a20cae3e-888b-4dc7-873a-fe42d883c5e2")
+	)
+	(text "NKK Switches JF15SP4D"
+		(exclude_from_sim no)
+		(at 117.348 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a9bb5a03-4643-47e2-8d60-fbef515fc89a")
+	)
+	(text "BLU"
+		(exclude_from_sim no)
+		(at 119.634 119.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ba559efe-6dff-4005-ae42-69c31ba8c66b")
+	)
+	(text "Wire Length ~ 6\""
+		(exclude_from_sim no)
+		(at 147.828 116.078 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c9f6054a-d18d-4c91-92be-88a8d715d4f4")
+	)
+	(text "ORA"
+		(exclude_from_sim no)
+		(at 117.094 119.38 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e9f2b05c-cb00-4f7f-a728-ed96d822cd7a")
+	)
+	(text "LEFT - ORA"
+		(exclude_from_sim no)
+		(at 123.19 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f23a8e8b-9c38-4932-a894-8503f8833515")
+	)
+	(text "ORA"
+		(exclude_from_sim no)
+		(at 117.094 101.092 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f841a655-db4e-4c52-88a7-848b34698571")
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 123.19 127 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "19d81967-38ce-4e63-a626-cc365c8ef8a6")
+		(property "Reference" "J22"
+			(at 124.46 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 124.46 130.81 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88848e3c-e851-4578-9750-25c8fa8b52b1")
+		)
+		(pin "1"
+			(uuid "d61f5171-df55-4e50-b07b-05ee20935570")
+		)
+		(pin "6"
+			(uuid "5d5af0e0-1123-490e-b07b-c66bb997ae8c")
+		)
+		(pin "3"
+			(uuid "1548f2c0-fce2-46c8-841f-7f87edaf6d62")
+		)
+		(pin "4"
+			(uuid "3c35554f-8e72-4969-bd1e-34ccacbd2be1")
+		)
+		(pin "5"
+			(uuid "6ee44c67-afdf-46a1-b6c6-c144cc9ff791")
+		)
+		(instances
+			(project ""
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7/ec4f347b-0248-4069-b714-34f321d62926"
+					(reference "J22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_MEC_5E_1")
+		(lib_id "Switch:SW_MEC_5E")
+		(at 123.19 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ed7ca62-f309-4685-91a0-a2122f7806c5")
+		(property "Reference" "SW1"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5E"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 123.19 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 123.19 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "8f0b7af5-44c2-40f4-82f3-14fecd809d48")
+		)
+		(pin "3"
+			(uuid "f31ca403-534e-4372-8b3d-51b3a8f13b63")
+		)
+		(pin "1"
+			(uuid "7cf97cc5-2f56-45ac-8a47-0b58c9322885")
+		)
+		(pin "2"
+			(uuid "c2dc75e7-8b93-49bf-9f25-9d7cf1a76adb")
+		)
+		(instances
+			(project ""
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7/ec4f347b-0248-4069-b714-34f321d62926"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_MEC_5E_1")
+		(lib_id "Switch:SW_MEC_5E")
+		(at 157.48 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91e130c6-56f8-4358-9be4-95ab656b15e9")
+		(property "Reference" "SW2"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_MEC_5E"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.apem.com/int/index.php?controller=attachment&id_attachment=1371"
+			(at 157.48 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "MEC 5E single pole normally-open tactile switch"
+			(at 157.48 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "b4e7d0ca-90a3-44a4-aa41-0c72781ef953")
+		)
+		(pin "3"
+			(uuid "91e5073e-1310-41b8-9dbe-26ff54de13a7")
+		)
+		(pin "1"
+			(uuid "63a24fab-0ec7-48a0-b241-3b3d43c7c504")
+		)
+		(pin "2"
+			(uuid "9dff1c63-7a34-47b1-adf1-b4e2de7dee06")
+		)
+		(instances
+			(project "CLBC Rev A Cables 250115"
+				(path "/2f8a9c40-103e-4bf5-b088-48c82821a7e7/ec4f347b-0248-4069-b714-34f321d62926"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

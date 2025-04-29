@@ -1,0 +1,11 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Altered_KiCad_Synbols")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Altered_KiCad_Synbols.kicad_sym")(options "")(descr ""))
+  (lib (name "Capacitor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Capacitor_JRB.kicad_sym")(options "")(descr ""))
+  (lib (name "Connector_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Connector_JRB.kicad_sym")(options "")(descr ""))
+  (lib (name "Diode_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Diode_JRB.kicad_sym")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Logos.kicad_sym")(options "")(descr ""))
+  (lib (name "Misc_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Misc_JRB.kicad_sym")(options "")(descr ""))
+  (lib (name "Transistor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Transistor_JRB.kicad_sym")(options "")(descr ""))
+  (lib (name "IC_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/IC_JRB.kicad_sym")(options "")(descr ""))
+)

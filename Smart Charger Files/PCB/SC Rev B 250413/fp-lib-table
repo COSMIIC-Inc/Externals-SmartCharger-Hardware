@@ -1,0 +1,12 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Capacitor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Capacitor_JRB.pretty")(options "")(descr ""))
+  (lib (name "Connector_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Connector_JRB.pretty")(options "")(descr ""))
+  (lib (name "Diode_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Diode_JRB.pretty")(options "")(descr ""))
+  (lib (name "IC_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/IC_JRB.pretty")(options "")(descr ""))
+  (lib (name "Inductor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Inductor_JRB.pretty")(options "")(descr ""))
+  (lib (name "Logos")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Logos.pretty")(options "")(descr ""))
+  (lib (name "Misc_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Misc_JRB.pretty")(options "")(descr ""))
+  (lib (name "Resistor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Resistor_JRB,pretty")(options "")(descr ""))
+  (lib (name "Transistor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Transistor_JRB.pretty")(options "")(descr ""))
+)
