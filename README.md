@@ -2,7 +2,7 @@
 
 ## Contents
 This repository is home to the 3D CAD and PCB design files of the Smart Charger in the COSMIIC System.
-Further documentation is available at **[docs.cosmiic.org/Externals/Charger-Coil](http://localhost:3000/Externals/Charger-Coil)**
+Further documentation is available at **[docs.cosmiic.org/Externals/Charger-Coil](https://docs.cosmiic.org/Externals/Charger-Coil)**
 
 ## Licensing
 Hardware-related files are licensed to open source users by COSMIIC under the CERN Open Hardware License - Permissive - v2 (CERN-OHL-P-2.0). Refer to the **[license text](https://ohwr.org/cern_ohl_p_v2.txt)** (also embedded in the repository as **LICENSE.txt**) and **[user guide](https://ohwr.org/project/cernohl/-/wikis/uploads/8a6b5d01f71c207c49493e4d114d61e6/cern_ohl_p_v2_howto.pdf)** to understand your permissions.
