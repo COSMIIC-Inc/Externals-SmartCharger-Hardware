@@ -3748,6 +3748,7 @@
 	)
 	(label "DO"
 		(at 113.03 60.96 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3758,6 +3759,7 @@
 	)
 	(label "DI"
 		(at 113.03 71.12 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3768,6 +3770,7 @@
 	)
 	(label "CS"
 		(at 113.03 68.58 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3778,6 +3781,7 @@
 	)
 	(label "SCLK"
 		(at 113.03 76.2 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5814,7 +5818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.001uF"
+		(property "Value" "0.1uF"
 			(at 105.41 148.59 0)
 			(effects
 				(font
