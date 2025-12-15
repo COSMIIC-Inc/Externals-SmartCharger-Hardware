@@ -16730,7 +16730,7 @@
 		(at 149.35835 99.033501)
 		(tags "901303108 ")
 		(property "Reference" "J31"
-			(at 3.65125 -3.143501 0)
+			(at -2.82575 -1.192701 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "034a02a3-5bf4-44e0-8ea5-f3a066064eb6")
@@ -18608,7 +18608,7 @@
 		(descr "SOD-323")
 		(tags "SOD-323")
 		(property "Reference" "D10"
-			(at -0.1184 -1.6256 90)
+			(at 3.302 1.2954 90)
 			(layer "F.SilkS")
 			(uuid "651e173a-0677-48d4-9c4d-150522b9bcf9")
 			(effects
@@ -29712,7 +29712,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R31"
-			(at 3.5052 -2.4892 360)
+			(at 3.5052 -2.4892 0)
 			(layer "F.SilkS")
 			(uuid "8633a706-8869-4a98-9f86-f11740b036fa")
 			(effects
@@ -29723,7 +29723,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "51b540d1-4fad-4d36-bf75-01706571a3ec")
 			(effects
@@ -29878,7 +29878,7 @@
 			(uuid "434674a1-3d75-42a4-a1d1-0d702550b7e2")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "32b2d523-723d-4eb3-bb54-9a07bdff646b")
 			(effects
@@ -30620,7 +30620,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R22"
-			(at -0.635 1.3462 360)
+			(at -0.635 1.3462 0)
 			(layer "F.SilkS")
 			(uuid "39bab55d-396a-4d14-a928-cb7d57b83e42")
 			(effects
@@ -30631,7 +30631,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "84614d1b-40c8-43cd-bcf9-790ece8745f1")
 			(effects
@@ -30786,7 +30786,7 @@
 			(uuid "aaa86428-e676-4b6f-a8a2-b4d8af5733f3")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "9c5fa9b3-d90e-4a54-a267-51d584cf6f36")
 			(effects
@@ -56926,7 +56926,7 @@
 		)
 	)
 	(gr_text "VDRV_OUT"
-		(at 133.604 112.522 90)
+		(at 134.9756 112.2934 90)
 		(layer "F.SilkS")
 		(uuid "13aef5cd-ac59-4f48-ade1-937c72d22b72")
 		(effects
