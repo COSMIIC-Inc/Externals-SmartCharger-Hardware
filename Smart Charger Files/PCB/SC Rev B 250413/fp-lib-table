@@ -9,4 +9,7 @@
   (lib (name "Misc_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Misc_JRB.pretty")(options "")(descr ""))
   (lib (name "Resistor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Resistor_JRB,pretty")(options "")(descr ""))
   (lib (name "Transistor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/Transistor_JRB.pretty")(options "")(descr ""))
+  (lib (name "LIB JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints.pretty")(options "")(descr ""))
+  (lib (name "ESD")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Footprints/ESD.pretty")(options "")(descr ""))
 )

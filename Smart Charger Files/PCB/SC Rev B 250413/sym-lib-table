@@ -8,4 +8,5 @@
   (lib (name "Misc_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Misc_JRB.kicad_sym")(options "")(descr ""))
   (lib (name "Transistor_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/Transistor_JRB.kicad_sym")(options "")(descr ""))
   (lib (name "IC_JRB")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/IC_JRB.kicad_sym")(options "")(descr ""))
+  (lib (name "ESDS304DBVR")(type "KiCad")(uri "${KIPRJMOD}/LIB JRB/Symbols/ESDS304DBVR.kicad_sym")(options "")(descr ""))
 )

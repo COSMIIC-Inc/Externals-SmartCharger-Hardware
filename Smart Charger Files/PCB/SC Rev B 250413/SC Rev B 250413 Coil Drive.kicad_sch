@@ -1496,6 +1496,150 @@
 				)
 			)
 		)
+		(symbol "Diode:BZX384xxxx"
+			(pin_numbers hide)
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BZX384xxxx"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-323"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85764/bzx384.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "300mW Zener Diode, SOD-323"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "zener diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D*SOD*323*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BZX384xxxx_0_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BZX384xxxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "IC_JRB:INA236AIDDFR"
 			(pin_names
 				(offset 0.254)
@@ -3682,6 +3826,12 @@
 		(uuid "a2c76b05-84ca-4d6d-89e6-6abc81888375")
 	)
 	(junction
+		(at 233.68 148.59)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbab3cf2-e56b-47bf-b32a-df3edce5c246")
+	)
+	(junction
 		(at 39.37 148.59)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3704,6 +3854,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cc95e7f4-06ec-4477-99d0-086137d118b9")
+	)
+	(junction
+		(at 233.68 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d637e39b-f928-41c0-8ab4-04cb842e352d")
 	)
 	(junction
 		(at 82.55 148.59)
@@ -4137,6 +4293,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 135.89) (xy 233.68 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46298fba-adaf-45aa-b744-b3613da4d141")
+	)
+	(wire
+		(pts
 			(xy 148.59 134.62) (xy 135.89 134.62)
 		)
 		(stroke
@@ -4154,6 +4320,16 @@
 			(type default)
 		)
 		(uuid "4aa54d9f-b9c8-4606-b679-7d7c0d598683")
+	)
+	(wire
+		(pts
+			(xy 233.68 148.59) (xy 243.84 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b37a75f-3612-4eab-be7f-aa4d8cd4ff87")
 	)
 	(wire
 		(pts
@@ -4187,7 +4363,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 148.59) (xy 243.84 148.59)
+			(xy 157.48 148.59) (xy 233.68 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4583,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 128.27) (xy 243.84 128.27)
+			(xy 212.09 128.27) (xy 233.68 128.27)
 		)
 		(stroke
 			(width 0)
@@ -5087,6 +5263,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 128.27) (xy 243.84 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5dbaddd-deb9-43ec-a928-e30e7d808fae")
+	)
+	(wire
+		(pts
 			(xy 248.92 88.9) (xy 237.49 88.9)
 		)
 		(stroke
@@ -5325,6 +5511,7 @@
 	)
 	(label "VDRV+"
 		(at 193.04 107.95 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5335,6 +5522,7 @@
 	)
 	(label "VDRV_Out"
 		(at 193.04 128.27 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6474,6 +6662,75 @@
 			(project "SC Rev B 250413"
 				(path "/abcc2f52-9ddc-4dc2-92aa-c79a95695b29/fa377acc-7bd3-4afa-8ed9-38b2339503ab"
 					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BZX384xxxx")
+		(at 233.68 132.08 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "603d7730-e94f-4175-8967-1de86528dbe0")
+		(property "Reference" "D10"
+			(at 235.966 133.096 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TSD12"
+			(at 233.934 135.636 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-323"
+			(at 229.235 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TVS"
+			(at 233.68 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07abb11e-5a44-4b47-b861-8340e765c441")
+		)
+		(pin "2"
+			(uuid "fe3b2500-cc8b-4008-a886-0c853e7b911b")
+		)
+		(instances
+			(project "SC Rev B 250413"
+				(path "/abcc2f52-9ddc-4dc2-92aa-c79a95695b29/fa377acc-7bd3-4afa-8ed9-38b2339503ab"
+					(reference "D10")
 					(unit 1)
 				)
 			)
